@@ -1,0 +1,63 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('https://wallpapers.com/images/hd/plain-aurora-colors-py93iz0pjcv8ps3e.webp') no-repeat center center fixed; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.95); 
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #4A90E2;
+  margin-bottom: 20px;
+}
+.question {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.question label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4A90E2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ABD;
+}
+#result {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
